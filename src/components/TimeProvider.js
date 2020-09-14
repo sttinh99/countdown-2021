@@ -19,7 +19,7 @@ export default class extends Component {
       this.setState({
         days: Math.floor((NewYears - CurrentDay) / (1000 * 24 * 3600)),
         hours: Math.floor((NewYears - CurrentDay) / (1000 * 3600)) % 24,
-        minutes: (Math.floor((NewYears - CurrentDay) / (1000 * 60)) % 24) % 60,
+        minutes: (Math.floor((NewYears - CurrentDay) / (1000 * 60)) % 60) % 60,
         seconds: Math.floor((NewYears - CurrentDay) / 1000) % 60,
       });
     }, 1000);
