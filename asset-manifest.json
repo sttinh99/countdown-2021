@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/countdown-2021/static/css/main.b3cfd722.chunk.css",
-    "main.js": "/countdown-2021/static/js/main.fd35bb54.chunk.js",
-    "main.js.map": "/countdown-2021/static/js/main.fd35bb54.chunk.js.map",
+    "main.js": "/countdown-2021/static/js/main.8515dd72.chunk.js",
+    "main.js.map": "/countdown-2021/static/js/main.8515dd72.chunk.js.map",
     "runtime-main.js": "/countdown-2021/static/js/runtime-main.16e70fee.js",
     "runtime-main.js.map": "/countdown-2021/static/js/runtime-main.16e70fee.js.map",
     "static/js/2.e4f7057c.chunk.js": "/countdown-2021/static/js/2.e4f7057c.chunk.js",
     "static/js/2.e4f7057c.chunk.js.map": "/countdown-2021/static/js/2.e4f7057c.chunk.js.map",
     "index.html": "/countdown-2021/index.html",
-    "precache-manifest.758c1a97f7c8e72500a2c5e9d4b3a5d0.js": "/countdown-2021/precache-manifest.758c1a97f7c8e72500a2c5e9d4b3a5d0.js",
+    "precache-manifest.0b564dddaef1171e28ae5422ed2def11.js": "/countdown-2021/precache-manifest.0b564dddaef1171e28ae5422ed2def11.js",
     "service-worker.js": "/countdown-2021/service-worker.js",
     "static/css/main.b3cfd722.chunk.css.map": "/countdown-2021/static/css/main.b3cfd722.chunk.css.map",
     "static/js/2.e4f7057c.chunk.js.LICENSE.txt": "/countdown-2021/static/js/2.e4f7057c.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.16e70fee.js",
     "static/js/2.e4f7057c.chunk.js",
     "static/css/main.b3cfd722.chunk.css",
-    "static/js/main.fd35bb54.chunk.js"
+    "static/js/main.8515dd72.chunk.js"
   ]
 }
