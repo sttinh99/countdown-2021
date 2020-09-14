@@ -1,38 +1,78 @@
+#root {
+}
 .App {
-  text-align: center;
+  text-align: start;
+  margin-left: 5%;
+  margin-top: 10%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.format-countdown {
   display: flex;
-  flex-direction: column;
+  width: 22%;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.App > h1 {
+  padding-left: 3%;
+  color: rgb(208, 255, 0); /* Fallback solid color */
+  -webkit-text-fill-color: transparent; /* Webkit Disable Fallback */
+
+  /* Text color gradient properties */
+  background: -webkit-linear-gradient(rgb(240, 77, 1), rgb(7, 7, 185));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 {
+  color: blue; /* Fallback solid color */
+  -webkit-text-fill-color: transparent; /* Webkit Disable Fallback */
+
+  /* Text color gradient properties */
+  background: -webkit-linear-gradient(
+    rgb(251, 255, 0),
+    rgba(255, 0, 85, 0.658)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+span {
+  font-size: 13px;
+}
+h1,
+span {
+  font-family: "Dancing Script", cursive;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.sound {
+  display: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 1392px) {
+  .App {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  .format-countdown {
+    display: flex;
+    width: 46%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .App > h1 {
+    padding-left: 3%;
+    /* Text color gradient properties */
+    background: -webkit-linear-gradient(rgb(1 173 255), rgb(255 255 255));
+    -webkit-background-clip: text;
+  }
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h1 {
+    /* Text color gradient properties */
+    background: -webkit-linear-gradient(rgb(245 255 91), rgb(8 255 27 / 66%));
+    -webkit-background-clip: text;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .format-countdown {
+    width: 80%;
   }
 }
