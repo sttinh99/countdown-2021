@@ -64,6 +64,7 @@ span {
   body {
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
   }
   h1 {
     /* Text color gradient properties */
