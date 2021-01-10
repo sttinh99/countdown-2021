@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import TimeContext from "../contextAPI/TimeContext";
-const NewYears = new Date("1 Jan 2021");
+const NewYears = new Date("1 Jan 2022");
 
 export default class extends Component {
   constructor(props) {
