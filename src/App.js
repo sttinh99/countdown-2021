@@ -12,7 +12,7 @@ function App() {
     <TimeProvider>
       <div className="App">
         <h1>
-          New Year 2021
+          New Year 2022
           <img src={fireworks} alt="fireworks" width="30px" height="30px" />
           <img src={festival} alt="festival" width="30px" height="30px" />
         </h1>
