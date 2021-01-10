@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56c81796e310332377312d7f450c540b",
+    "revision": "18e762c1ccdf77b431e6a7f7fe4e7f12",
     "url": "/countdown-2021/index.html"
   },
   {
-    "revision": "8a26b7bf3aad2997743b",
+    "revision": "1d74f412e0169f57ac37",
     "url": "/countdown-2021/static/css/main.44e28c40.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/countdown-2021/static/js/2.e4f7057c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a26b7bf3aad2997743b",
-    "url": "/countdown-2021/static/js/main.214f2f71.chunk.js"
+    "revision": "1d74f412e0169f57ac37",
+    "url": "/countdown-2021/static/js/main.6abf069c.chunk.js"
   },
   {
     "revision": "063d62c359a82830471b",
